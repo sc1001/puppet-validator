@@ -20,13 +20,17 @@ There are two options for validating Puppet code:
 1. Validate a specific directory:
 
     ```
-    $ ./puppet-validator.sh directory_name
+    $ ./puppet-validator.sh
+    $ Enter directory name where Puppet code is located. Leave blank to check all directories: directory_name
+    $ Validating directory_name directory
     ```
 
 2. Validate all directories:
 
     ```
     $ ./puppet-validator.sh
+    $ Enter directory name where Puppet code is located. Leave blank to check all directories:
+    $ Validating all directories
     ```
 
 ## License
